@@ -8,7 +8,7 @@ from social.tests.backends.oauth import OAuth2Test
 class FacebookOAuth2Test(OAuth2Test):
     backend_path = 'social.backends.facebook.FacebookOAuth2'
     user_data_url = 'https://graph.facebook.com/v2.3/me'
-    expected_username = 'foobar'
+    expected_username = '110011001100010'
     access_token_body = json.dumps({
         'access_token': 'foobar',
         'token_type': 'bearer'
